@@ -1,0 +1,7 @@
+.build
+build
+.vagrant
+Package.resolved
+*.pkg
+*.xcodeproj
+*.DS_Store
