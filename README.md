@@ -1,12 +1,12 @@
 <p align="center">
-    <a href="http://kitura.io/">
-        <img src="https://raw.githubusercontent.com/IBM-Swift/Kitura/master/Sources/Kitura/resources/kitura-bird.svg?sanitize=true" height="100" alt="Kitura">
+    <a href="http://kitura.dev/">
+        <img src="https://raw.githubusercontent.com/Kitura/Kitura/master/Sources/Kitura/resources/kitura-bird.svg?sanitize=true" height="100" alt="Kitura">
     </a>
 </p>
 
 <p align="center">
-    <a href="https://travis-ci.org/IBM-Swift/Kitura-WebSocket-Client">
-    <img src="https://travis-ci.org/IBM-Swift/Kitura-WebSocket-Client.svg?branch=master" alt="Build Status - Master">
+    <a href="https://travis-ci.org/Kitura/Kitura-WebSocket-Client">
+    <img src="https://travis-ci.org/Kitura/Kitura-WebSocket-Client.svg?branch=master" alt="Build Status - Master">
     </a>
     <img src="https://img.shields.io/badge/os-macOS-green.svg?style=flat" alt="macOS">
     <img src="https://img.shields.io/badge/os-linux-green.svg?style=flat" alt="Linux">
@@ -22,7 +22,7 @@ A WebSocket compression library based on SwiftNIO
 ## WebSocket Client
 WebSocket Client is a WebSocket endpoint, defined by [RFC6455](https://tools.ietf.org/html/rfc6455) allows to upgrade an existing HTTP connection to WebSocket connection  and communicate.
 
-This document discusses the implementation of WebSocket Client in [Kitura-WebSocket-Client](https://github.com/IBM-Swift/Kitura-WebSocket-Client) API using  [SwiftNIO](https://github.com/apple/swift-nio).
+This document discusses the implementation of WebSocket Client in [Kitura-WebSocket-Client](https://github.com/Kitura/Kitura-WebSocket-Client) API using  [SwiftNIO](https://github.com/apple/swift-nio).
 
 This document assumes the reader is aware of the fundamentals of the [WebSocket protocol](https://tools.ietf.org/html/rfc6455).
 
@@ -33,10 +33,10 @@ This document assumes the reader is aware of the fundamentals of the [WebSocket 
 
 #### Add dependencies
 
-Add the `Kitura-WebSocket-Client` package to the dependencies within your application’s `Package.swift` file. Substitute `"x.x.x"` with the latest `Kitura-WebSocket-Client` [release](https://github.com/IBM-Swift/Kitura-WebSocket-Client/releases).
+Add the `Kitura-WebSocket-Client` package to the dependencies within your application’s `Package.swift` file. Substitute `"x.x.x"` with the latest `Kitura-WebSocket-Client` [release](https://github.com/Kitura/Kitura-WebSocket-Client/releases).
 
 ```swift
-.package(url: "https://github.com/IBM-Swift/Kitura-WebSocket-Client.git", from: "x.x.x")
+.package(url: "https://github.com/Kitura/Kitura-WebSocket-Client.git", from: "x.x.x")
 ```
 
 Add `Kitura-WebSocket-Client` to your target's dependencies:
